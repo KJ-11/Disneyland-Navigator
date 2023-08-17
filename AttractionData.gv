@@ -1,0 +1,35 @@
+digraph AttractionData {
+    AnimalKingdom [comment="Ride"];
+    GalaxysEdge [comment="Ride"];
+    AstroOrbital [comment="Ride"];
+    Barnstormer [comment="Ride"];
+    CastawayCreek [comment="Ride"];
+    DisneyCastle [comment="Ride"];
+    FossilFun [comment="Ride"];
+    Bathroom1 [comment="Bathroom"];
+    Bathroom2 [comment="Bathroom"];
+    Bathroom3 [comment="Bathroom"];
+    FoodTruck1 [comment="Food"];
+    FoodTruck2 [comment="Food"];
+    FoodTruck3 [comment="Food"];
+    AnimalKingdom -> Bathroom1 [label=300];
+    AnimalKingdom -> GalaxysEdge [label=750];
+    GalaxysEdge -> FoodTruck1 [label=750];
+    FoodTruck1 -> Bathroom1 [label=200];
+    AstroOrbital -> Bathroom1 [label=185];
+    AstroOrbital -> AnimalKingdom [label=652];
+    FoodTruck1 -> FossilFun [label=150];
+    FossilFun -> Barnstormer [label=125];
+    Barnstormer -> Bathroom2 [label=125];
+    Bathroom2 -> CastawayCreek [label=200];
+    CastawayCreek -> AstroOrbital [label=200];
+    Bathroom1 -> FoodTruck2 [label=150];
+    FoodTruck2 -> CastawayCreek [label=400];
+    CastawayCreek -> GalaxysEdge [label=700];
+    FossilFun -> DisneyCastle [label=290];
+    FossilFun -> Bathroom3 [label=100];
+    DisneyCastle -> AstroOrbital [label=300];
+    Bathroom2 -> DisneyCastle [label=250];
+    AstroOrbital -> FoodTruck3 [label=409];
+    FoodTruck3 -> Bathroom2 [label=200];
+}
