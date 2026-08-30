@@ -1,6 +1,5 @@
 // --== CS400 File Header Information ==--
 // Name: Michael Deng
-// Email: madeng@wisc.edu
 // Team: AT
 // TA: Minghao Yan
 // Lecturer: Gary Dahl

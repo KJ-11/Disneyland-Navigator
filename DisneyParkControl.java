@@ -1,7 +1,5 @@
 // --== CS400 Project Three File Header ==--
 // Name: Henry Burke
-// CSL Username: hburke
-// Email: hpburke@wisc.edu
 // Lecture #: 001 @11:00am
 // Notes to Grader: did you drink enough water today?
 

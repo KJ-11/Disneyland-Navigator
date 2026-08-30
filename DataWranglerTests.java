@@ -1,6 +1,5 @@
 // --== CS400 File Header Information ==--
 // Name: Kshitij Jhunjhunwala
-// Email: kjhunjhunwa2@wisc.edu
 // Team: AT
 // TA: Minghao Yan
 // Lecturer: Gary Dahl
